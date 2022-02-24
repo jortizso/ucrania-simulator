@@ -1,0 +1,38 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    background: url(https://imagenes.elpais.com/resizer/PO8rfX9x9avwN_Zj7kd7CjAx2EY=/1960x1103/cloudfront-eu-central-1.images.arcpublishing.com/prisa/XG2XDR4G4ZBY3EPYDKHI52M2S4.jpg);
+}
+
+h1 {
+    text-align: center;
+}
+
+#miCanvas {
+    border: groove 2px red;
+    background: rgb(208, 233, 255);
+}
+
+.botonesMover {
+    color: #e8e8e8;
+    background-color: #006df1;
+    border-radius: 10px;
+    height: 30px;
+    width: 25%;
+    margin: 1%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.botonDisparo {
+    color: #e8e8e8;
+    background-color: #ae0000;
+    border-radius: 10px;
+    height: 30px;
+    width: 42%;
+    margin: 1%;
+    font-size: 14px;
+    font-weight: bold;
+}
