@@ -79,16 +79,16 @@ function Bala(x, y, w) {
     this.w = w;
     this.dibuja = function() {
         ctx.save();
-        ctx.fillStyle = "yellow";
+        ctx.fillStyle = "#cccc00";
         ctx.fillRect(this.x, this.y, this.w, this.w);
-        this.y = this.y - 6;
+        this.y = this.y - 30;
         ctx.restore();
     };
     this.dispara = function() {
         ctx.save();
         ctx.fillStyle = "#005704";
         ctx.fillRect(this.x, this.y, this.w, this.w);
-        this.y = this.y + 4;
+        this.y = this.y + 10;
         ctx.restore();
     };
 }
